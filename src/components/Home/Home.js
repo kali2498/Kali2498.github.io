@@ -4,7 +4,6 @@ import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 
-
 const Home = () => {
   return (
     <section className={styles.home_section} id="home">
@@ -15,6 +14,7 @@ const Home = () => {
             className={styles.image}
             // src={process.env.PUBLIC_URL + "/profile/profilePhoto.png"}
             src={"https://avatars.githubusercontent.com/u/103638485?v=4"}
+            alt="akash"
           />
         </div>
       </div>
@@ -25,8 +25,8 @@ const Home = () => {
         </h1>
         {/* <h1 className={styles.heading_2}>I build things for the web.</h1> */}
         <p className={styles.desc}>
-          Creative Full-Stack Web Devloper with 
-          building websites using JavaScript and React.
+          Creative Full-Stack Web Devloper with building websites using
+          JavaScript and React.
         </p>
         <div className={styles.social_icons}>
           <a href="https://github.com/kali2498" target="_blank">

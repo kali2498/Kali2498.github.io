@@ -1,6 +1,7 @@
 .resume_section {
-  height: 100vh;
+  height: 110vh;
   padding: 0px 60px;
+  /* border:1px solid red; */
 }
 
 .container {

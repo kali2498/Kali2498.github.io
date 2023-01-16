@@ -5,6 +5,7 @@ import { HiOutlineMoon } from "react-icons/hi";
 import { CgSun } from "react-icons/cg";
 import { useState, useContext } from "react";
 import { ThemeContext } from "../../App";
+import AkashResume from "../Navbar/AkashResume.pdf";
 
 function Navbar() {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -31,7 +32,7 @@ function Navbar() {
             About
           </a>
           <a href="#resume" className={styles.nav_link}>
-            Resume
+            Education
           </a>
           <a href="#work" className={styles.nav_link}>
             Work
@@ -47,7 +48,9 @@ function Navbar() {
 
           <a
             className={styles.nav_resume_btn}
-            href={process.env.PUBLIC_URL + "/profile/AkashResume.pdf"}
+            // href={process.env.PUBLIC_URL + "/profile/AkashResume.pdf"}
+            href={AkashResume}
+            download={"/Navbar/AkashResume"}
             target="_blank"
           >
             Resume

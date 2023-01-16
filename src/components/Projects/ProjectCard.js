@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { BsLink } from "react-icons/bs";
+import { BsGithub, BsLink } from "react-icons/bs";
 import styles from "./ProjectCard.module.css";
 
 const ProjectCard = () => {
@@ -39,27 +39,35 @@ const ProjectCard = () => {
   const projects = [
     {
       img: "/projects/mailchimp.png",
-      name: "e-mail marketing Website",
+      name: "E-mail marketing Website",
       tech: ["HTML", "CSS", "Javascript"],
+      dec: "Mailchimp is a marketing automation platform and email marketing service.",
       link: "https://peaceful-concha-590692.netlify.app",
+      glink: "https://github.com/kali2498/MailChimp_website-Clone",
     },
     {
       img: "/projects/niftyPM.png",
       name: "Nifty-Managment Website.",
       tech: ["ReactJS", "ChakraUI", "HTML", "CSS"],
+      dec: "Nifty is the remote collaboration hub to manage projects, tasks, and communications all in one place.",
       link: "https://nifty-pm.netlify.app/",
+      glink: "https://github.com/piyush-agrawal6/NiftyPM-clone",
     },
     {
       img: "/projects/beuty-bebo.png",
-      name: "e-Commerce Website.",
+      name: "E-Commerce Website.",
       tech: ["ReactJS", "ChakraUI", "HTML", "CSS"],
+      dec: "Beauty Bebo is India's fastest growing online retail store for the day to day.",
       link: "https://incredible-rolypoly-ca9c8f.netlify.app/",
+      glink: "https://github.com/kali2498/BeutyBebo-website-Clone",
     },
     {
       img: "/projects/anthro.png",
-      name: "e-Commerce Website.",
+      name: "E-Commerce Website.",
       tech: ["ReactJS", "ChakraUI", "HTML", "CSS"],
+      dec: " Anthropologie's unique collection of women's clothing, accessories, home décor,gifts and more.",
       link: "https://shiny-crumble-fca118.netlify.app/",
+      glink: "https://github.com/kali2498/Anthropologie-website-Clone",
     },
   ];
 
@@ -90,9 +98,19 @@ const ProjectCard = () => {
                   <div className={styles.tech}>{item}</div>
                 ))}
               </div>
-              <a className={styles.link} href={card.link} target="_blank">
-                <BsLink />
-              </a>
+
+              <div className={styles.card_header}>
+                <h6>{card.dec}</h6>
+              </div>
+
+              <div className={styles.linkdiv}>
+                <a className={styles.link} href={card.link} target="_blank">
+                  <BsLink />
+                </a>
+                <a className={styles.link} href={card.glink} target="_blank">
+                  <BsGithub />
+                </a>
+              </div>
             </div>
           </div>
         ))}

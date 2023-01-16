@@ -14,10 +14,10 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_rvd2mp7",
-        "template_bqimba3",
+        "service_ty7wap8",
+        "template_rc0b0za",
         e.target,
-        "m407pDr3Csp2TUjh0"
+        "dgcTS7d4NLQPMhPYe"
       )
       .then(
         (result) => {
@@ -30,7 +30,7 @@ function ContactForm() {
     e.target.reset();
     setResult(true);
   };
-
+  // console.log(result)
   return (
     <div className={styles["contact-form"]}>
       <form method="POST" name="contactForm" onSubmit={sendEmail}>

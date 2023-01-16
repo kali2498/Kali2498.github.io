@@ -8,6 +8,8 @@ import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import { createContext } from "react";
+import GitHubStats from "./components/Github/GitHubStats";
+// import GitHubStats from "./components/Github/GithubStats";
 
 export const ThemeContext = createContext(null);
 
@@ -38,6 +40,7 @@ function App() {
         <About />
         <Resume />
         <Projects />
+        <GitHubStats />
         <Contact />
         <Footer />
       </div>
