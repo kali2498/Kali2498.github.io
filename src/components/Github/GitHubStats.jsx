@@ -58,6 +58,11 @@ const GitHubStats = () => {
             alt="Github stats"
             data-aos="flip-left"
           />
+          <img
+          src="https://github-readme-activity-graph.cyclic.app/graph?username=kali2498&theme=react-dark&hide_border=true"
+          alt="Github stats"
+          data-aos="flip-left"
+        />
         </div>
       </div>
     </div>

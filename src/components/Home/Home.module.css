@@ -51,14 +51,14 @@
 
 .home_img img {
   position: relative;
-  height: 350px;
-  top: 78px;
-  left: 50px;
-  margin-top: -30px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  height: 400px;
+ /* top: 78px;
+  left: 50px; 
+   margin-top: -30px;  */
+   border-top-left-radius: 16px;
+  border-top-right-radius: 16px; 
   border-bottom-right-radius: 16px;
-  border-bottom-left-radius: 16px;
+  border-bottom-left-radius: 16px; 
 }
 
 .home_img:hover .cover::after {

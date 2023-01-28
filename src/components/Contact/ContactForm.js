@@ -47,6 +47,7 @@ function ContactForm() {
             type="text"
             placeholder="Name"
             required
+            
           />
         </div>
         <div className={styles["form-control"]}>
@@ -73,5 +74,9 @@ function ContactForm() {
     </div>
   );
 }
+
+
+
+
 
 export default ContactForm;

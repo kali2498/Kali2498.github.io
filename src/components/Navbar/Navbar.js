@@ -40,6 +40,9 @@ function Navbar() {
           <a href="#contact" className={styles.nav_link}>
             Contact
           </a>
+          <a href="#about" className={styles.nav_link}>
+          Skills
+        </a>
         </div>
         <div className={styles.nav_right}>
           <div className={styles.theme_icon} onClick={toggleTheme}>
