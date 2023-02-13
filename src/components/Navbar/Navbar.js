@@ -5,7 +5,7 @@ import { HiOutlineMoon } from "react-icons/hi";
 import { CgSun } from "react-icons/cg";
 import { useState, useContext } from "react";
 import { ThemeContext } from "../../App";
-import AkashResume from "../Navbar/AkashResume.pdf";
+import AkashResume from "./AkashResume.pdf";
 
 function Navbar() {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -34,32 +34,32 @@ function Navbar() {
           <a href="#resume" className={styles.nav_link}>
             Education
           </a>
+          <a href="#resume" className={styles.nav_link}>
+            Skills
+          </a>
           <a href="#work" className={styles.nav_link}>
             Work
           </a>
           <a href="#contact" className={styles.nav_link}>
             Contact
           </a>
-          <a href="#about" className={styles.nav_link}>
-          Skills
-        </a>
         </div>
         <div className={styles.nav_right}>
           <div className={styles.theme_icon} onClick={toggleTheme}>
             {darkTheme ? <CgSun /> : <HiOutlineMoon />}
           </div>
 
-          <a
-            className={styles.nav_resume_btn}
-            // href={process.env.PUBLIC_URL + "/profile/AkashResume.pdf"}
-            href={AkashResume}
-            download={"/Navbar/AkashResume"}
-            target="_blank"
-          >
-            Resume
+          <a href={AkashResume} target="_blank" download>
+            <button
+              onClick={() => window.open(AkashResume)}
+              className={styles.nav_resume_btn}
+            >
+              Resume
+            </button>
           </a>
         </div>
       </div>
+
       <div className={styles.mobileMenu}>
         {/* Hamburger menu */}
         <div className={styles.nav_left}>
@@ -74,7 +74,10 @@ function Navbar() {
             About
           </a>
           <a href="#resume" className={styles.nav_link}>
-            Resume
+            Education
+          </a>
+          <a href="#resume" className={styles.nav_link}>
+            Experience
           </a>
           <a href="#work" className={styles.nav_link}>
             Work
@@ -82,12 +85,13 @@ function Navbar() {
           <a href="#contact" className={styles.nav_link}>
             Contact
           </a>
-          <a
-            className={styles.nav_link}
-            href={process.env.PUBLIC_URL + "/profile/AkashResume.pdf"}
-            target="_blank"
-          >
-            Resume
+          <a href={AkashResume} target="_blank" download>
+            <button
+              onClick={() => window.open(AkashResume)}
+              className={styles.nav_resume_btn}
+            >
+              Resume
+            </button>
           </a>
         </div>
         <div className={styles.nav_right}>

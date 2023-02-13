@@ -43,7 +43,7 @@ function ContactForm() {
         <div className={styles["form-control"]}>
           <input
             id="name"
-            name="name"
+            name="from_name"
             type="text"
             placeholder="Name"
             required
@@ -53,7 +53,7 @@ function ContactForm() {
         <div className={styles["form-control"]}>
           <input
             id="email"
-            name="email"
+            name="email_id"
             type="text"
             placeholder="Email"
             required
