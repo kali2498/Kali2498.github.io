@@ -38,7 +38,7 @@ function App() {
         <Navbar />
         <Home />
         <About />
-       
+        <Resume />
         <Projects />
         <GitHubStats />
         <Contact />

@@ -12,7 +12,7 @@ const Resume = () => {
       </div>
       <div className={styles.container}>
         <Education />
-       
+        <Work />
       </div>
     </section>
   );

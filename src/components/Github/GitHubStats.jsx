@@ -43,7 +43,7 @@ const GitHubStats = () => {
         <GitHubCalendar
           style={{ margin: "auto" }}
           blockSize={18}
-          fontSize={14}
+          fontSize={16}
           blockMargin={4}
           blockRadius={6}
           username="kali2498"

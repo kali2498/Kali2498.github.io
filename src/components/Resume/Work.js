@@ -14,17 +14,27 @@ const Work = () => {
           {/* <h3>Work</h3> */}
         </div>
         <div className={styles.timeline}>
+
           <div className={styles.timeline_item}>
             <h4 className={styles.timeline_title}>
-              System Engineer - Tata Consultancy Services
+              Masai School - Full-stack Web Development Program ( Full Time )
             </h4>
-            <p className={styles.timeline_date}>November,2020 - present</p>
+            <p className={styles.timeline_date}>March,2022 - present</p>
             <p className={styles.timeline_desc}>
-              Working as an innovative front end developer, creating scalable
-              web apps using plain HTML CSS and JavaScript, using frameworks
-              like React and Adobe Magento CMS.
+              Spent 1300+ hours mastering algorithms,
+              data structures, and full-stack
+              development Simultaneously
+              developing projects with HTML,
+              JavaScript, React, and Redux. Developed
+              skills in remote pair-programming using
+              GitHub, industry-standard gitflow,
+              And daily standups to communicate and
+              collaborate with remote developers.
             </p>
           </div>
+
+
+
         </div>
       </div>
     </div>

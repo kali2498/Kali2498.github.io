@@ -1,5 +1,6 @@
 .container {
   flex: 0.5 1;
+  /* border: 1px solid black; */
 }
 
 .timeline_icon {

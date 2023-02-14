@@ -31,14 +31,15 @@ function Navbar() {
           <a href="#about" className={styles.nav_link}>
             About
           </a>
+          <a href="#about" className={styles.nav_link}>
+            Skills
+          </a>
           <a href="#resume" className={styles.nav_link}>
             Education
           </a>
-          <a href="#resume" className={styles.nav_link}>
-            Skills
-          </a>
+
           <a href="#work" className={styles.nav_link}>
-            Work
+            Projects
           </a>
           <a href="#contact" className={styles.nav_link}>
             Contact
@@ -73,14 +74,15 @@ function Navbar() {
           <a href="#about" className={styles.nav_link}>
             About
           </a>
+          <a href="#about" className={styles.nav_link}>
+            Skills
+          </a>
           <a href="#resume" className={styles.nav_link}>
             Education
           </a>
-          <a href="#resume" className={styles.nav_link}>
-            Experience
-          </a>
+
           <a href="#work" className={styles.nav_link}>
-            Work
+            Projects
           </a>
           <a href="#contact" className={styles.nav_link}>
             Contact

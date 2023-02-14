@@ -38,9 +38,25 @@ const ProjectCard = () => {
 
   const projects = [
     {
+      img: "/projects/IKEA.png",
+      name: "E-Commerce  Website",
+      tech: ["ReactJs", "Aos", "Redux", "Redux-Thunks"],
+      dec: "IKEA sell the  kitchen appliances, decoration, home accessories etc.",
+      link: "rococo-sawine-4218f1.netlify.app/",
+      glink: "https://github.com/kali2498/MailChimp_website-Clone",
+    },
+    {
+      img: "/projects/Wrike.png",
+      name: "Management Website",
+      tech: ["ReactJs", "Redux", "Redux-Thunks", "Chakra-UI"],
+      dec: "Wrike is a work management platform that helps business teams collaborate, plan projects",
+      link: "proflow.netlify.app",
+      glink: "https://github.com/VIC-PAUL/Wrike-Clone",
+    },
+    {
       img: "/projects/mailchimp.png",
       name: "E-mail marketing Website",
-      tech: ["HTML", "CSS", "Javascript"],
+      tech: ["HTML", "CSS", "Javascript", "font-awosome"],
       dec: "Mailchimp is a marketing automation platform and email marketing service.",
       link: "https://peaceful-concha-590692.netlify.app",
       glink: "https://github.com/kali2498/MailChimp_website-Clone",
@@ -48,7 +64,7 @@ const ProjectCard = () => {
     {
       img: "/projects/niftyPM.png",
       name: "Nifty-Managment Website.",
-      tech: ["ReactJS", "ChakraUI", "HTML", "CSS"],
+      tech: ["JavaScript", "HTML", "CSS", "font-awosome"],
       dec: "Nifty is the remote collaboration hub to manage projects, tasks, and communications all in one place.",
       link: "https://nifty-pm.netlify.app/",
       glink: "https://github.com/piyush-agrawal6/NiftyPM-clone",
@@ -56,7 +72,7 @@ const ProjectCard = () => {
     {
       img: "/projects/beuty-bebo.png",
       name: "E-Commerce Website.",
-      tech: ["ReactJS", "ChakraUI", "HTML", "CSS"],
+      tech: ["ReactJS", "ChakraUI", "React-Icon"],
       dec: "Beauty Bebo is India's fastest growing online retail store for the day to day.",
       link: "https://incredible-rolypoly-ca9c8f.netlify.app/",
       glink: "https://github.com/kali2498/BeutyBebo-website-Clone",
@@ -64,7 +80,7 @@ const ProjectCard = () => {
     {
       img: "/projects/anthro.png",
       name: "E-Commerce Website.",
-      tech: ["ReactJS", "ChakraUI", "HTML", "CSS"],
+      tech: ["ReactJS", "ChakraUI", "React-Icon"],
       dec: " Anthropologie's unique collection of women's clothing, accessories, home décor,gifts and more.",
       link: "https://shiny-crumble-fca118.netlify.app/",
       glink: "https://github.com/kali2498/Anthropologie-website-Clone",
