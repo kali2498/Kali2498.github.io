@@ -38,19 +38,11 @@ const ProjectCard = () => {
 
   const projects = [
     {
-      img: "/projects/mailchimp.png",
-      name: "E-mail marketing Website",
-      tech: ["HTML", "CSS", "Javascript", "font-awosome"],
-      dec: "Mailchimp is a marketing automation platform and email marketing service.",
-      link: "https://peaceful-concha-590692.netlify.app",
-      glink: "https://github.com/kali2498/MailChimp_website-Clone",
-    },
-    {
       img: "/projects/IKEA.png",
       name: "E-Commerce  Website",
       tech: ["ReactJs", "Aos", "Redux", "Redux-Thunks"],
       dec: "IKEA sell the  kitchen appliances, decoration, home accessories etc.",
-      link: "rococo-sawine-4218f1.netlify.app/",
+      link: "https://rococo-sawine-4218f1.netlify.app/",
       glink: "https://github.com/pgariya/fleet-purpose-8648",
     },
     {
@@ -58,7 +50,7 @@ const ProjectCard = () => {
       name: "Management Website",
       tech: ["ReactJs", "Redux", "Redux-Thunks", "Chakra-UI"],
       dec: "Wrike is a work management platform that helps business teams collaborate, plan projects",
-      link: "proflow.netlify.app",
+      link: "https://proflow.netlify.app",
       glink: "https://github.com/VIC-PAUL/Wrike-Clone",
     },
     {
@@ -68,6 +60,14 @@ const ProjectCard = () => {
       dec: "Nifty is the remote collaboration hub to manage projects, tasks, and communications all in one place.",
       link: "https://nifty-pm.netlify.app/",
       glink: "https://github.com/piyush-agrawal6/NiftyPM-clone",
+    },
+    {
+      img: "/projects/mailchimp.png",
+      name: "E-mail marketing Website",
+      tech: ["HTML", "CSS", "Javascript", "font-awosome"],
+      dec: "Mailchimp is a marketing automation platform and email marketing service.",
+      link: "https://peaceful-concha-590692.netlify.app",
+      glink: "https://github.com/kali2498/MailChimp_website-Clone",
     },
     {
       img: "/projects/beuty-bebo.png",
