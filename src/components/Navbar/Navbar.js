@@ -5,7 +5,7 @@ import { HiOutlineMoon } from "react-icons/hi";
 import { CgSun } from "react-icons/cg";
 import { useState, useContext } from "react";
 import { ThemeContext } from "../../App";
-import AkashResume from "./AkashResume.pdf";
+import fw19_0797_Akash_More_Resume from "./fw19_0797_Akash_More_Resume.pdf";
 
 function Navbar() {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -31,14 +31,14 @@ function Navbar() {
           <a href="#about" className={styles.nav_link}>
             About
           </a>
-          <a href="#about" className={styles.nav_link}>
+          <a href="#Skills" className={styles.nav_link}>
             Skills
           </a>
           <a href="#resume" className={styles.nav_link}>
             Education
           </a>
 
-          <a href="#work" className={styles.nav_link}>
+          <a href="#projects" className={styles.nav_link}>
             Projects
           </a>
           <a href="#contact" className={styles.nav_link}>
@@ -50,9 +50,9 @@ function Navbar() {
             {darkTheme ? <CgSun /> : <HiOutlineMoon />}
           </div>
 
-          <a href={AkashResume} target="_blank" download>
+          <a href={fw19_0797_Akash_More_Resume} target="_blank" download>
             <button
-              onClick={() => window.open(AkashResume)}
+              onClick={() => window.open(`https://drive.google.com/file/d/1nP4lNdvcTE1nprRiHRsqQ7MXWq8IZn2t/view?usp=sharing`)}
               className={styles.nav_resume_btn}
             >
               Resume
@@ -71,25 +71,25 @@ function Navbar() {
             isMenuClicked ? styles.active : ""
           }`}
         >
-          <a href="#about" className={styles.nav_link}>
+          <a href="#about" onClick={toggleMobileMenu} className={styles.nav_link}>
             About
           </a>
-          <a href="#about" className={styles.nav_link}>
+          <a href="#Skills" onClick={toggleMobileMenu} className={styles.nav_link}>
             Skills
           </a>
-          <a href="#resume" className={styles.nav_link}>
+          <a href="#resume" onClick={toggleMobileMenu} className={styles.nav_link}>
             Education
           </a>
 
-          <a href="#work" className={styles.nav_link}>
+          <a href="#projects" onClick={toggleMobileMenu} className={styles.nav_link}>
             Projects
           </a>
-          <a href="#contact" className={styles.nav_link}>
+          <a href="#contact" onClick={toggleMobileMenu} className={styles.nav_link}>
             Contact
           </a>
-          <a href={AkashResume} target="_blank" download>
+          <a href={fw19_0797_Akash_More_Resume} target="_blank" download>
             <button
-              onClick={() => window.open(AkashResume)}
+              onClick={() => window.open(`https://drive.google.com/file/d/1nP4lNdvcTE1nprRiHRsqQ7MXWq8IZn2t/view?usp=sharing`)}
               className={styles.nav_resume_btn}
             >
               Resume

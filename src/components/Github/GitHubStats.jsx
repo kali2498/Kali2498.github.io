@@ -6,6 +6,12 @@ import  ReactTooltip  from 'react-tooltip';
 import "./githubStats.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { FaCode, FaGit } from "react-icons/fa";
+import { RiLightbulbFlashLine } from "react-icons/ri";
+import { BiUserVoice } from "react-icons/bi";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { VscGraph } from "react-icons/vsc";
+
 //import { ThemeContext } from '../context/ThemeContext';
 // import { useContext } from 'react';
 
@@ -52,12 +58,27 @@ const GitHubStats = () => {
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
 
+        <div className="githubInfo">
+        <div>
+          <div className="texts" ><FaCode size="30px" /> <h1 >1300+ Hours Practical Coding</h1></div>
+          <div className="texts" ><RiLightbulbFlashLine size="30px" /> <h1 >500+ Hours Data Structures & Algorithms</h1></div>
+          <div className="texts" alignItems="center"><BiUserVoice size="30px" /> <h1 >100+ Hours Soft Skill Development</h1></div>
+
+        </div>
+
+
+        <div>
+
+          <div className="texts" ><AiOutlineFundProjectionScreen size="30px" /> <h1 >8+ Projects</h1></div>
+          <div className="texts"  ><VscGraph size="30px" /> <h1 >60+ Mini Projects</h1></div>
+          <div className="texts" ><FaGit size="30px" /> <h1 >400+ Git Commits</h1></div>
+
+
+        </div>
+
+
+      </div>
         <div className="stats_container">
-          <img
-            src="https://github-readme-streak-stats.herokuapp.com/?user=kali2498&theme=nightowl&border_radius=7"
-            alt="Github stats"
-            data-aos="flip-left"
-          />
           <img
           src="https://github-readme-activity-graph.cyclic.app/graph?username=kali2498&theme=react-dark&hide_border=true"
           alt="Github stats"

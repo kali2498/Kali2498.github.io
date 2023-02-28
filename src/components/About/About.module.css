@@ -2,6 +2,8 @@
   height: 100vh;
   padding: 0px 60px;
   background-color: var(--light-2);
+  /* border: 2px solid black; */
+  height: auto;
 }
 
 .heading {
@@ -40,7 +42,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(1,1fr);
   grid-gap: 80px;
   max-width: 1280px;
   margin: auto;

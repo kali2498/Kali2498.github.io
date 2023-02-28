@@ -9,6 +9,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import { createContext } from "react";
 import GitHubStats from "./components/Github/GitHubStats";
+import SkillsA from "./components/Skills/Skills";
 // import GitHubStats from "./components/Github/GithubStats";
 
 export const ThemeContext = createContext(null);
@@ -38,6 +39,7 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <SkillsA />
         <Resume />
         <Projects />
         <GitHubStats />
