@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc5d4701.css",
-    "main.js": "/static/js/main.0db84d8f.js",
+    "main.css": "/static/css/main.af6fbe31.css",
+    "main.js": "/static/js/main.80a63ec7.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/fw19_0797_Akash_More_Resume.pdf": "/static/media/fw19_0797_Akash_More_Resume.7854a1091c95b616220f.pdf",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,12 +9,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.cc5d4701.css.map": "/static/css/main.cc5d4701.css.map",
-    "main.0db84d8f.js.map": "/static/js/main.0db84d8f.js.map",
+    "main.af6fbe31.css.map": "/static/css/main.af6fbe31.css.map",
+    "main.80a63ec7.js.map": "/static/js/main.80a63ec7.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc5d4701.css",
-    "static/js/main.0db84d8f.js"
+    "static/css/main.af6fbe31.css",
+    "static/js/main.80a63ec7.js"
   ]
 }
