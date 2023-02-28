@@ -75,6 +75,25 @@
   height: 380px;
   width: 100%;
 }
+
+.GithuAkash_Stat{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+
+.box{
+  transition: transform 0.5s linear;
+}
+.box:hover{
+/* color:  #dc143c; */
+transform: scale(1.1);
+
+  transition: 0.5s ease-in;
+}
+
+
 @media screen and (max-width: 1000px) {
   #github_section > div {
     width: 90%;
@@ -134,4 +153,9 @@
     display:none;
    
   }
+  .GithuAkash_Stat{
+    display: none;
+
+  }
+  
 }

@@ -12,7 +12,7 @@ const Home = () => {
           <div className={styles.cover}></div>
           <img
             className={styles.image}
-            src={process.env.PUBLIC_URL + "/profile/AkashMore1.png"}
+            src={process.env.PUBLIC_URL + "/profile/AkashMore.png"}
             // src={"https://avatars.githubusercontent.com/u/103638485?v=4"}
             alt="akash"
           />

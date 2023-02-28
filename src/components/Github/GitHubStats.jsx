@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import GitHubCalendar from "react-github-calendar";
 // import { Tooltip as ReactTooltip } from "react-tooltip";
 // import { Tooltip as ReactTooltip } from 'react-tooltip'
-import  ReactTooltip  from 'react-tooltip';
+import ReactTooltip from "react-tooltip";
 import "./githubStats.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -38,7 +38,7 @@ const GitHubStats = () => {
       duration: 1000,
     });
   }, []);
-   //const { Themes, currentTheme } = useContext(ThemeContext)
+  //const { Themes, currentTheme } = useContext(ThemeContext)
   return (
     <div id="githubID">
       <h1 className="heading">
@@ -59,31 +59,55 @@ const GitHubStats = () => {
         </GitHubCalendar>
 
         <div className="githubInfo">
-        <div>
-          <div className="texts" ><FaCode size="30px" /> <h1 >1300+ Hours Practical Coding</h1></div>
-          <div className="texts" ><RiLightbulbFlashLine size="30px" /> <h1 >500+ Hours Data Structures & Algorithms</h1></div>
-          <div className="texts" alignItems="center"><BiUserVoice size="30px" /> <h1 >100+ Hours Soft Skill Development</h1></div>
+          <div>
+            <div className="texts">
+              <FaCode size="30px" /> <h1>1300+ Hours Practical Coding</h1>
+            </div>
+            <div className="texts">
+              <RiLightbulbFlashLine size="30px" />{" "}
+              <h1>500+ Hours Data Structures & Algorithms</h1>
+            </div>
+            <div className="texts" alignItems="center">
+              <BiUserVoice size="30px" />{" "}
+              <h1>100+ Hours Soft Skill Development</h1>
+            </div>
+          </div>
 
+          <div>
+            <div className="texts">
+              <AiOutlineFundProjectionScreen size="30px" /> <h1>8+ Projects</h1>
+            </div>
+            <div className="texts">
+              <VscGraph size="30px" /> <h1>60+ Mini Projects</h1>
+            </div>
+            <div className="texts">
+              <FaGit size="30px" /> <h1>400+ Git Commits</h1>
+            </div>
+          </div>
         </div>
 
+        <div className="GithuAkash_Stat" >
+          <img
+            className="box"
+            align="center"
+            src="https://github-readme-stats.vercel.app/api?username=kali2498&theme=vision-friendly-dark&show_icons=true&locale=en"
+            alt="kali2498"
+          />
 
-        <div>
-
-          <div className="texts" ><AiOutlineFundProjectionScreen size="30px" /> <h1 >8+ Projects</h1></div>
-          <div className="texts"  ><VscGraph size="30px" /> <h1 >60+ Mini Projects</h1></div>
-          <div className="texts" ><FaGit size="30px" /> <h1 >400+ Git Commits</h1></div>
-
-
+          <img
+            className="box"
+            align="center"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=kali2498&theme=vision-friendly-dark"
+            alt="kali2498"
+          />
         </div>
 
-
-      </div>
         <div className="stats_container">
           <img
-          src="https://github-readme-activity-graph.cyclic.app/graph?username=kali2498&theme=react-dark&hide_border=true"
-          alt="Github stats"
-          data-aos="flip-left"
-        />
+            src="https://github-readme-activity-graph.cyclic.app/graph?username=kali2498&theme=react-dark&hide_border=true"
+            alt="Github stats"
+            data-aos="flip-left"
+          />
         </div>
       </div>
     </div>
@@ -91,8 +115,6 @@ const GitHubStats = () => {
 };
 
 export default GitHubStats;
-
-
 
 // <img
 // src="https://github-readme-stats.vercel.app/api?username=kali2498&show_icons=true&theme=tokyonight"
